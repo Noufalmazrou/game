@@ -1,0 +1,91 @@
+header{
+/* background-color: rgb(3, 3, 3); */
+margin: 10px;
+opacity: 0.6;
+filter: alpha(opacity=40); 
+}
+header h1{
+    text-align: center;
+    color: white;
+    /* font-family: Apple Chancery; */
+    font-size: 55px;
+    margin: 12px;
+    /* -webkit-animation: blurFadeInOut 3s ease-in backwards;
+	-moz-animation: blurFadeInOut 3s ease-in backwards;
+	-ms-animation: blurFadeInOut 3s ease-in backwards;
+	animation: blurFadeInOut 3s ease-in backwards; */
+}
+
+body{
+    background-size: 10px;
+    background-image: url('Untitled-28.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    margin-bottom: 0
+    
+}
+
+
+.continer{
+    /* margin: 0%; */
+    margin-top: 3%;
+    margin-left: 30%; 
+    margin-right: 0%;
+
+    
+
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+.col
+{
+
+    height: 80px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    padding: 40px ;
+    background-color: white;
+    padding-top: 30px;
+    font-size: 100px;
+    margin: 4px;
+    position: relative;
+    bottom: 5px;
+    left: 180px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  
+}
+
+.button
+{
+    text-align: center;
+
+    
+}
+
+.reset
+{
+    /* height: 50px;
+    width: 60px; */
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+    right: 550px;
+    bottom: -60px;
+    opacity: 0.8;
+    filter: alpha(opacity=40); 
+}

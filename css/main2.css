@@ -1,0 +1,65 @@
+button {
+
+    /* background-color: white; */
+    color: rgb(245, 243, 243);
+    font-size: 40px;
+    margin: 0 350px;
+    font-family: Apple Chancery;
+    position: relative;
+    top: 10px;
+    left: 180px;
+   
+}
+body{
+    background-size: 10px;
+    background-image: url('Untitled-1.jpg');
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-color: rgb(155, 154, 154);
+    background-position-x: center;
+}
+
+form {
+    margin: auto;
+    margin-left: 290px;
+    text-align: center;
+
+}
+.label1 {
+
+    color: white;
+    float: left;
+    position: relative;
+    top: 130px;
+    left: 110px;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+    font-family: Apple Chancery;
+  
+}
+.label2 {
+
+    color: white;
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 170px;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+    font-family: Apple Chancery;
+  
+}
+.label1 input {
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+.label2 input {
+    position: relative;
+    /* top: 250px;
+    right: 150px; */
+
+}
