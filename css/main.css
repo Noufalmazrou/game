@@ -18,7 +18,7 @@ header h1{
 
 body{
     background-size: 10px;
-    background-image: url('Untitled-28.jpg');
+    background-image: url('/Untitled-28.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,3 +89,32 @@ body{
     opacity: 0.8;
     filter: alpha(opacity=40); 
 }
+.body1{
+    margin: 0 40%; 
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 430px;
+    background-size: 10px;
+    background-image: url('/Untitled-1.jpg');
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-color: rgb(155, 154, 154);
+    background-position-x: center;}
+
+    .label1{
+        position: relative;
+    top: 201px;
+    left: 22px;
+    }
+    .label2{
+        position: relative;
+        top: 98px;
+        left: 269px;
+    
+    }
+
+    .button1{
+        position: relative;
+        top: 74px;
+        left: 165px;
+    }

@@ -2,31 +2,25 @@ let arr = [
   ["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"],
   ["1", "4", "7"], ["2", "5", "8"], ["3", "6", "9"],
   ["1", "5", "9"], ["3", "5", "7"]
-]
+];
 
 let player1 = []
 let player2 = []
 var click =0
 
 var flag = true
-// console.log($( ".games" ).hasClass( "foo" ))
-// $( ".games" ).addClass( "nouf" )
-// function welcome(){
-//   var first = document.getElementById("user_name").value; 
-//   var last = document.getElementById("user_name").value;
-// console.log($('#name1').val())
-// $('#page2').hide()
-// var nameOfplayer1 = ''
-// var nameOfplayer2 = ''
-// $(".button1").click(function () {
-//   $('#page1').hide()
-//   $('#page2').show()
-//   console.log($('#name1').val())
-//   nameOfplayer1 = $('#name1').val()
-//   nameOfplayer2 = $('#name1').val()
 
-//   console.log(nameOfplayer1)
-// })
+$('#page2').hide()
+
+$(".button1").click(function () {
+  $('#page1').hide()
+  $('#page2').show()
+  console.log($('#name1').val())
+  nameOfplayer1 = $('#name1').val()
+  nameOfplayer2 = $('#name2').val()
+
+  console.log(nameOfplayer1)
+})
 // console.log(nameOfplayer1)
 
 //   var welcomeF = first ;
@@ -70,7 +64,7 @@ let x = false;
         
       
           $('.col').css('pointer-events','none')  
-          alert('Congratulations player Nouf' )      }
+          alert('Congratulations player '  + nameOfplayer1)      }
       });
 
     }
@@ -84,7 +78,7 @@ let x = false;
       arr.forEach(win => {
         if (player2.includes(win[0]) && player2.includes(win[1]) && player2.includes(win[2]) ){
 
-          alert('Congratulations player Yasir' )
+          alert('Congratulations player ' + nameOfplayer2)
 
           x = true
           $('.col').css('pointer-events','none')
